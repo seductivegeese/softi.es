@@ -1,43 +1,48 @@
-@-webkit-keyframes honk {
-	from {
-		-webkit-transform: rotateY(0deg);
-		        transform: rotateY(0deg);
-	}
-	25%{
-		-webkit-transform: rotateY(20deg);
-		        transform: rotateY(20deg);
-	}
-	75% {
-		-webkit-transform: rotateY(20deg);
-		        transform: rotateY(20deg);	
-	}
-	to{
-		-webkit-transform: rotateY(0deg);
-		        transform: rotateY(0deg);
-	}
+body {
+  background-color: #DADADA !important;
+}
+html, body {
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+#bubbles {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    background: rgba(0, 0, 0, 1);
+    z-index: -1;
+	overflow: hidden;
+}
+#bubbles div {
+	font-size: 2em;
+	color: #2BFF00;
+    border-radius: 100%;
+    position: absolute;
+    -webkit-animation: fade 10s infinite;
+	animation: fade 10s infinite;
 }
 
-@keyframes honk {
+@-webkit-keyframes fade {
 	from {
-		-webkit-transform: rotateY(0deg);
-		        transform: rotateY(0deg);
+		bottom: -24px;
+		opacity: 1;
+		visibility: visible
 	}
-	25%{
-		-webkit-transform: rotateY(20deg);
-		        transform: rotateY(20deg);
-	}
-	75% {
-		-webkit-transform: rotateY(20deg);
-		        transform: rotateY(20deg);	
-	}
-	to{
-		-webkit-transform: rotateY(0deg);
-		        transform: rotateY(0deg);
+	to {
+		bottom: 120%
 	}
 }
-
-.not-a-duck{
-	margin: 50px;
-	-webkit-animation: honk 2s ease-in-out infinite;
-	        animation: honk 2s ease-in-out infinite;
+@keyframes fade {
+	from {
+		bottom: -24px;
+		opacity: 1;
+		visibility: visible
+	}
+	to {
+		bottom: 120%
+	}
 }
