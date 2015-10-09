@@ -6,6 +6,7 @@ html, body {
     width:100%;
     margin:0;
     padding:0;
+    font-family: sans-serif;
 }
 #bubbles {
     width: 100%;
@@ -45,4 +46,21 @@ html, body {
 	to {
 		bottom: 120%
 	}
+}
+
+.content {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.hero {
+  max-width: 50%;
+  color: white;
+}
+
+.title{
+  font-size: 2em;
 }
