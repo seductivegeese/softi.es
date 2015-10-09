@@ -1,0 +1,43 @@
+@-webkit-keyframes honk {
+	from {
+		-webkit-transform: rotateY(0deg);
+		        transform: rotateY(0deg);
+	}
+	25%{
+		-webkit-transform: rotateY(20deg);
+		        transform: rotateY(20deg);
+	}
+	75% {
+		-webkit-transform: rotateY(20deg);
+		        transform: rotateY(20deg);	
+	}
+	to{
+		-webkit-transform: rotateY(0deg);
+		        transform: rotateY(0deg);
+	}
+}
+
+@keyframes honk {
+	from {
+		-webkit-transform: rotateY(0deg);
+		        transform: rotateY(0deg);
+	}
+	25%{
+		-webkit-transform: rotateY(20deg);
+		        transform: rotateY(20deg);
+	}
+	75% {
+		-webkit-transform: rotateY(20deg);
+		        transform: rotateY(20deg);	
+	}
+	to{
+		-webkit-transform: rotateY(0deg);
+		        transform: rotateY(0deg);
+	}
+}
+
+.not-a-duck{
+	margin: 50px;
+	-webkit-animation: honk 2s ease-in-out infinite;
+	        animation: honk 2s ease-in-out infinite;
+}
