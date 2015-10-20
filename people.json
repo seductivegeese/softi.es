@@ -41,6 +41,12 @@
       "description": "Genius, Trillionaire, Supermodel",
       "github": "jj22wang",
       "website": "quorus.xyz"
+    },
+      "name": "Saksham Sachdev",
+      "image": "people/saksham.jpg",
+      "description": "JS is fun",
+      "github": "sachdevs",
+      "website": "saksham.me"
     }
   ]
 }
