@@ -11,8 +11,15 @@ html, body {
 pre {
   font-family: 'Source Code Pro', monospace;
 }
+section {
+  box-sizing: border-box;
+  padding: 40px; 
+}
+section:nth-of-type(odd) {
+  background-color:rgba(0,0,0,0.1);
+}
 
-.header {
+section.header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -32,8 +39,8 @@ pre {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  background-color:#35203B;
   color:#FFF;
+  background-color:#35203B;
 }
 
 #bubbles {
@@ -55,9 +62,21 @@ pre {
 }
 
 pre#goose {
+  color: #88A825;
   margin: 0 auto;
   position: relative;
   z-index: 2;
+  font-size: 14px;
+}
+@media all and (max-width:700px) {
+  pre#goose {
+    font-size:12px;
+  }
+}
+@media all and (max-width:400px) {
+  pre#goose {
+    font-size:10px;
+  }
 }
 
 h1 {
@@ -111,15 +130,6 @@ a {
 }
 a:hover {
   color: #ED8C2B;
-}
-
-#goose {
-  color: #88A825;
-}
-
-section {
-  box-sizing: border-box;
-  padding: 40px; 
 }
 
 .people {

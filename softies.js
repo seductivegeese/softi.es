@@ -22,7 +22,7 @@
       if(i < 30){
         var el = document.createElement('div');
         el.className = 'fa fa-'+_.sample(icons);
-        el.setAttribute('style', 'left:'+_.random(4, c.offsetWidth-(el.offsetWidth+4) )+'px;');
+        el.setAttribute('style', 'left:'+_.random(4, 96)+'%;');
         c.appendChild(el);
         i++;
       } else {
