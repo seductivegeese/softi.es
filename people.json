@@ -34,6 +34,13 @@
       "description": "Loading...",
       "github": "ju-de",
       "website": "jud.yt"
+    },
+    {
+      "name": "Saksham Sachdev",
+      "image": "people/saksham.jpg",
+      "description": "JS is fun",
+      "github": "sachdevs",
+      "website": "saksham.me"
     }
   ]
 }
