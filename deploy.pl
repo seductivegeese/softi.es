@@ -19,6 +19,13 @@ die "Npm returned $result" unless $result == 0;
 my $result = `node build.js`;
 die "Node returned $result" unless $result == 0;
 
+my $result = `chmod +x deploy.pl`;
+die "Chmod returned $result" unless $result == 0;
+
+my $result = `chmod 755 deploy.pl`;
+die "Chmod returned $result" unless $result == 0;
+
+
 print "Deployed :)";
 print '</body>';
 print '</html>';
