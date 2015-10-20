@@ -48,6 +48,13 @@
       "description": "JS is fun",
       "github": "sachdevs",
       "website": "saksham.me"
+    },
+    {
+      "name": "Andrew McBurney",
+      "image": "people/andrewmcb.jpg",
+      "description": "I'm Batman.",
+      "github": "armcburn",
+      "website": "andrewmcburney.ca"
     }
   ]
 }
