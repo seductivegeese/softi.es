@@ -1,5 +1,5 @@
 # [softi.es](http://softi.es)
-A website for softies.
+A website for UW Software Engineering class of 2019.
 
 ## Setup
 Install dependencies:
