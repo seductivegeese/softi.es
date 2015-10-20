@@ -7,6 +7,9 @@ print '<title>Softies Deployment</title>';
 print '</head>';
 print '<body>';
 
+my $result = `git reset HEAD --hard`;
+die "Git reset returned $result" unless $result == 0;
+
 my $result = `git pull`;
 die "Git returned $result" unless $result == 0;
 
