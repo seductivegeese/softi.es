@@ -77,7 +77,6 @@ h1:before {
   display:inline-block;
   margin: 0 10px;
   width:20px;
-  width:20px;
   margin-left:-30px;
 }
 
@@ -93,14 +92,106 @@ h1:after {
   animation: blink 1.2s infinite;
 }
 
+h2 {
+  color: #911146;
+  font-size: 30px;
+  margin: 10px 0 40px 30px;
+}
+h2:before {
+  content: '#';
+  color: #CF4A30;
+  display:inline-block;
+  margin: 0 10px;
+  width:20px;
+  margin-left:-30px;
+}
+
+a {
+  color: #911146;
+}
+a:hover {
+  color: #ED8C2B;
+}
+
 #goose {
   color: #88A825;
 }
 
-.content{
-  margin: 20px; 
+section {
+  box-sizing: border-box;
+  padding: 40px; 
 }
 
+.people {
+  padding:0 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-box-align: flex-start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.person {
+  display:block;
+  width: 250px;
+  margin: 0 50px 50px 0;
+}
+@media all and (max-width: 1100px) {
+  .person {
+    width: 200px;
+  }
+}
+@media all and (max-width: 940px) {
+  .people {
+    justify-content: center;
+  }
+  .person {
+    width:250px;
+  }
+}
+.person .icon {
+  height:200px;
+  background-position:center;
+  background-size:cover;
+  border-radius:5px;
+}
+.person h3 {
+  font-size:25px;
+  margin:10px 0;
+}
+.person h4 {
+  font-weight:lighter;
+  font-size:16px;
+  color: #8A7A99;
+  margin: 10px 0;
+}
+.person ul {
+  padding: 0;
+  margin:0;
+}
+.person ul li {
+  list-style-type: none;
+  margin: 5px 0;
+  font-size:16px;
+}
+.person ul li i {
+  width: 30px;
+  display:inline-block;
+  text-align:center;
+  color: #CF4A30;
+}
+.person ul li a {
+  text-decoration:none;
+}
 
 
 

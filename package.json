@@ -1,0 +1,22 @@
+{
+  "name": "softi.es",
+  "version": "1.0.0",
+  "description": "A website for softies.",
+  "main": "softies.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icechen1/softi.es.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icechen1/softi.es/issues"
+  },
+  "homepage": "https://github.com/icechen1/softi.es#readme",
+  "dependencies": {
+    "handlebars": "^4.0.3"
+  }
+}

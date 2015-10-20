@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>SOFTIES</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
+    <script type="text/javascript" src="softies.js"></script>
+	</head>
+	<body>
+    <section class="header">
+      <div id="bubbles"></div>
+      <h1>Software Engineering class of 2019</h1>
+      <pre id="goose">
+                                    ___
+                                ,-""   `.
+                              ,'  _   o )`-._
+                              /  ,' `-._&lt;.===-'
+                            /  /
+                            /  ;
+                _          /   ;
+  (`._    _.-"" ""--..__,'    |
+  &lt;_  `-""                     \
+    &lt;`-                          :
+    (__   &lt;__.                  ;
+      `-.   '-.__.      _.'    /
+          \      `-.__,-'    _,'
+          `._    ,    /__,-'
+              ""._\__,'&lt; &lt;____
+                  | |  `----.`.
+                  | |        \ `.
+                  ; |___      \-``
+                  \   --&lt;
+                    `.`.&lt;
+                      `-'   
+      </pre>
+    </section>
+    <section>
+      <h2>The People</h2> 
+      <div class="people">
+        {{#each people}}
+        <div class="person">
+          <div class="icon" style="background-image:url('{{image}}')"></div>
+          <h3>{{name}}</h3>
+          <h4>{{description}}</h4>
+          <ul>
+            {{#if github}}
+            <li>
+              <i class="fa fa-github"></i>
+              <a href="https://github.com/{{github}}" target="_blank">{{github}}</a>
+            </li>
+            {{/if}}
+            {{#if website}}
+            <li>
+              <i class="fa fa-globe"></i>
+              <a href="http://{{website}}" target="_blank">{{website}}</a>
+            </li>
+            {{/if}}
+          </ul>
+        </div>
+        {{/each}}
+      </div>
+    </section> 
+	</body>
+</html>

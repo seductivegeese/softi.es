@@ -1,0 +1,32 @@
+{
+  "people": [
+    {
+      "name": "Bo Peng",
+      "image": "people/bopeng.jpg",
+      "description": "SE's yolo blogger; Po Beng's twin",
+      "github": "pobeng",
+      "website": "bopeng.io"
+    },
+    {
+      "name": "Yu Chen Hou",
+      "image": "people/yuchenhou.jpg",
+      "description": "Makes cool things and owns this domain",
+      "github": "icechen1",
+      "website": "yuchenhou.com"
+    },
+    {
+      "name": "Dave Pagurek",
+      "image": "people/davepagurek.jpg",
+      "description": "Regular Expression enthusiast",
+      "github": "davepagurek",
+      "website": "davepagurek.com"
+    },
+    {
+      "name": "Andrew Codispoti",
+      "image": "people/andrewcodispoti.jpg",
+      "description": "Android wizard",
+      "github": "andrew749",
+      "website": "andrewcodispoti.me"
+    }
+  ]
+}
