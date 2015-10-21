@@ -55,7 +55,7 @@
       "description": "I'm Batman.",
       "github": "armcburn",
       "website": "andrewmcburney.ca"
-    }, 
+    },
     {
       "name": "Robbin Xu",
       "image": "people/robbin.jpg",
@@ -83,6 +83,13 @@
       "description": "Your local web dev.",
       "github": "DeonHua",
       "website": "deonhua.github.io"
+  },
+  {
+    "name": "Austin Du",
+      "image": "people/austindu.jpg",
+      "description": "They call me... Austin",
+      "github": "AustinDu",
+      "website": "austindu.com"
   }
   ]
 }
