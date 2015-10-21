@@ -1,0 +1,67 @@
+{
+  "people": [
+    {
+      "name": "Bo Peng",
+      "image": "people/bopeng.jpg",
+      "description": "SE's yolo blogger; Po Beng's twin",
+      "github": "pobeng",
+      "website": "bopeng.io"
+    },
+    {
+      "name": "Yu Chen Hou",
+      "image": "people/yuchenhou.jpg",
+      "description": "Makes cool things and owns this domain",
+      "github": "icechen1",
+      "website": "yuchen.io"
+    },
+    {
+      "name": "Dave Pagurek",
+      "image": "people/davepagurek.jpg",
+      "description": "Regular Expression enthusiast",
+      "github": "davepagurek",
+      "website": "davepagurek.com"
+    },
+    {
+      "name": "Andrew Codispoti",
+      "image": "people/andrewcodispoti.jpg",
+      "description": "Benevolant Brogrammer",
+      "github": "andrew749",
+      "website": "andrewcodispoti.me"
+    },
+    {
+      "name": "Judy Chen",
+      "image": "people/judychen.jpg",
+      "description": "Loading...",
+      "github": "ju-de",
+      "website": "jud.yt"
+    },
+    {
+      "name": "Jack Wang",
+      "image": "people/jackwang.jpg",
+      "description": "Genius, Trillionaire, Supermodel",
+      "github": "jj22wang",
+      "website": "quorus.xyz"
+    },
+    {
+      "name": "Saksham Sachdev",
+      "image": "people/saksham.jpg",
+      "description": "JS is fun",
+      "github": "sachdevs",
+      "website": "saksham.me"
+    },
+    {
+      "name": "Andrew McBurney",
+      "image": "people/andrewmcb.jpg",
+      "description": "I'm Batman.",
+      "github": "armcburn",
+      "website": "andrewmcburney.ca"
+    }, 
+    {
+      "name": "Robbin Xu",
+      "image": "people/robbin.jpg",
+      "description": "Karaoke battle!",
+      "github": "cspanda",
+      "website": "robbinxu.me"
+    }
+  ]
+}
