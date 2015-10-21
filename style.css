@@ -168,6 +168,10 @@ a:hover {
     width:250px;
   }
 }
+.person.hidden {
+  height:0;
+  margin-top:0;
+}
 .person .icon {
   height:200px;
   background-position:center;
