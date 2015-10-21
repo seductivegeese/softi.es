@@ -62,6 +62,13 @@
       "description": "Karaoke battle!",
       "github": "cspanda",
       "website": "robbinxu.me"
+    },
+    {
+      "name": "Jason Zukewich",
+      "image": "people/jason.jpg",
+      "description": "Just kinda here",
+      "github": "jgzuke",
+      "website": "jgzuke.me"
     }
   ]
 }
