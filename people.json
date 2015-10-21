@@ -55,6 +55,13 @@
       "description": "I'm Batman.",
       "github": "armcburn",
       "website": "andrewmcburney.ca"
+    }, 
+    {
+      "name": "Robbin Xu",
+      "image": "people/robbin.jpg",
+      "description": "Karaoke battle!",
+      "github": "cspanda",
+      "website": "robbinxu.me"
     }
   ]
 }
