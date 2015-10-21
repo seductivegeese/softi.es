@@ -76,6 +76,13 @@
       "description": "His name is MR Sexy",
       "github": "nare469",
       "website": "narensrini.me"
-	}
+	},
+  {
+    "name": "Deon Hua",
+      "image": "people/deon.jpg",
+      "description": "Your local web dev.",
+      "github": "DeonHua",
+      "website": "deonhua.github.io"
+  }
   ]
 }
