@@ -90,6 +90,13 @@
       "description": "They call me... Austin",
       "github": "AustinDu",
       "website": "austindu.com"
-  }
+  },
+    {
+      "name": "Jim Zhang",
+      "image": "people/jimzhang.jpg",
+      "description": "Tsundere stimulator",
+      "github": "neynt",
+      "website": "neynt.ca"
+    }
   ]
 }
