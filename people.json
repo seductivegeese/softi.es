@@ -2,101 +2,108 @@
   "people": [
     {
       "name": "Bo Peng",
+      "website": "bopeng.io",
       "image": "people/bopeng.jpg",
       "description": "SE's yolo blogger; Po Beng's twin",
-      "github": "pobeng",
-      "website": "bopeng.io"
+      "github": "pobeng"
     },
     {
       "name": "Yu Chen Hou",
+      "website": "yuchen.io",
       "image": "people/yuchenhou.jpg",
       "description": "Makes cool things and owns this domain",
-      "github": "icechen1",
-      "website": "yuchen.io"
+      "github": "icechen1"
     },
     {
       "name": "Dave Pagurek",
+      "website": "davepagurek.com",
       "image": "people/davepagurek.jpg",
       "description": "Regular Expression enthusiast",
-      "github": "davepagurek",
-      "website": "davepagurek.com"
+      "github": "davepagurek"
     },
     {
       "name": "Andrew Codispoti",
+      "website": "andrewcodispoti.me",
       "image": "people/andrewcodispoti.jpg",
       "description": "Benevolant Brogrammer",
-      "github": "andrew749",
-      "website": "andrewcodispoti.me"
+      "github": "andrew749"
     },
     {
       "name": "Judy Chen",
+      "website": "jud.yt",
       "image": "people/judychen.jpg",
       "description": "Loading...",
-      "github": "ju-de",
-      "website": "jud.yt"
+      "github": "ju-de"
     },
     {
       "name": "Jack Wang",
+      "website": "quorus.xyz",
       "image": "people/jackwang.jpg",
       "description": "Genius, Trillionaire, Supermodel",
-      "github": "jj22wang",
-      "website": "quorus.xyz"
+      "github": "jj22wang"
     },
     {
       "name": "Saksham Sachdev",
+      "website": "saksham.me",
       "image": "people/saksham.jpg",
       "description": "JS is fun",
-      "github": "sachdevs",
-      "website": "saksham.me"
+      "github": "sachdevs"
     },
     {
       "name": "Andrew McBurney",
+      "website": "andrewmcburney.ca",
       "image": "people/andrewmcb.jpg",
       "description": "I'm Batman.",
-      "github": "armcburn",
-      "website": "andrewmcburney.ca"
+      "github": "armcburn"
     },
     {
       "name": "Robbin Xu",
+      "website": "robbinxu.me",
       "image": "people/robbin.jpg",
       "description": "Karaoke battle!",
-      "github": "cspanda",
-      "website": "robbinxu.me"
+      "github": "cspanda"
     },
     {
       "name": "Jason Zukewich",
+      "website": "jgzuke.me",
       "image": "people/jason.jpg",
       "description": "Just kinda here",
-      "github": "jgzuke",
-      "website": "jgzuke.me"
+      "github": "jgzuke"
     },
-	{
-	  "name": "Naren Srinivasan",
+    {
+      "name": "Naren Srinivasan",
+      "website": "narensrini.me",
       "image": "people/narensrin.jpg",
       "description": "His name is MR Sexy",
-      "github": "nare469",
-      "website": "narensrini.me"
-	},
-  {
-    "name": "Deon Hua",
+      "github": "nare469"
+    },
+    {
+      "name": "Deon Hua",
+      "website": "deonhua.github.io",
       "image": "people/deon.jpg",
       "description": "Your local web dev.",
-      "github": "DeonHua",
-      "website": "deonhua.github.io"
-  },
-  {
-    "name": "Austin Du",
+      "github": "DeonHua"
+    },
+    {
+      "name": "Austin Du",
+      "website": "austindu.com",
       "image": "people/austindu.jpg",
       "description": "They call me... Austin",
-      "github": "AustinDu",
-      "website": "austindu.com"
-  },
+      "github": "AustinDu"
+    },
     {
       "name": "Jim Zhang",
+      "website": "neynt.ca",
       "image": "people/jimzhang.jpg",
       "description": "Tsundere stimulator",
-      "github": "neynt",
-      "website": "neynt.ca"
+      "github": "neynt"
+    },
+    {
+      "name": "Charles Zinn",
+      "website": "charleszinn.ca",
+      "image": "people/charles.jpg",
+      "description": "Bit optimization process",
+      "github": "Semicolon314"
     }
   ]
 }
