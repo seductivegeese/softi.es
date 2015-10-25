@@ -104,6 +104,13 @@
       "image": "people/charles.jpg",
       "description": "Bit optimization process",
       "github": "Semicolon314"
+    },
+    {
+      "name": "Mitchell Kember",
+      "website": "mitchellkember.com",
+      "image": "people/mitchell.jpg",
+      "description": "&lambda;f.(&lambda;x.f (x x)) (&lambda;x.f (x x))",
+      "github": "mk12"
     }
   ]
 }
