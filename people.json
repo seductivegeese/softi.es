@@ -109,7 +109,7 @@
       "name": "Mitchell Kember",
       "website": "mitchellkember.com",
       "image": "people/mitchell.jpg",
-      "description": "&lambda;f.(&lambda;x.f (x x)) (&lambda;x.f (x x))",
+      "description": "λf.(λx.f (x x)) (λx.f (x x))",
       "github": "mk12"
     }
   ]
