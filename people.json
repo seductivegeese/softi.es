@@ -111,6 +111,13 @@
       "image": "people/mitchell.jpg",
       "description": "λf.(λx.f (x x)) (λx.f (x x))",
       "github": "mk12"
+    },
+    {
+      "name": "John Cena",
+      "website": "ucantseeme.com",
+      "image": "people/johncena.jpg",
+      "description": "my time is now",
+      "github": "jcena"
     }
   ]
 }
