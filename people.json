@@ -111,6 +111,13 @@
       "image": "people/mitchell.jpg",
       "description": "λf.(λx.f (x x)) (λx.f (x x))",
       "github": "mk12"
+    },
+    {
+      "name": "Paul Bardea",
+      "website": "pbardea.com",
+      "image": "people/sexypaul.jpg",
+      "description": "GloriOS",
+      "github": "pbardea"
     }
   ]
 }
