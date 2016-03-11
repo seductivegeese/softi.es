@@ -118,6 +118,13 @@
       "image": "people/sexypaul.jpg",
       "description": "GloriOS",
       "github": "pbardea"
+    },
+    {
+      "name": "Cora Lam",
+      "website": "coralam.ca",
+      "image": "people/cora.jpg",
+      "description": "A human. Being.",
+      "github": "coraellation"
     }
   ]
 }
