@@ -206,6 +206,9 @@ a:hover {
 .person ul li a {
   text-decoration:none;
 }
+.info {
+  margin: 15px 10px;
+}
 
 
 

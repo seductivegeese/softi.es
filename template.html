@@ -44,22 +44,24 @@
         {{#each people}}
         <div class="person">
           <div class="icon" style="background-image:url('{{image}}')"></div>
-          <h3>{{name}}</h3>
-          <h4>{{description}}</h4>
-          <ul>
-            {{#if github}}
-            <li>
-              <i class="fa fa-github"></i>
-              <a href="https://github.com/{{github}}" target="_blank">{{github}}</a>
-            </li>
-            {{/if}}
-            {{#if website}}
-            <li>
-              <i class="fa fa-globe"></i>
-              <a href="http://{{website}}" target="_blank">{{website}}</a>
-            </li>
-            {{/if}}
-          </ul>
+          <div class="info">
+            <h3>{{name}}</h3>
+            <h4>{{description}}</h4>
+            <ul>
+              {{#if github}}
+              <li>
+                <i class="fa fa-github"></i>
+                <a href="https://github.com/{{github}}" target="_blank">{{github}}</a>
+              </li>
+              {{/if}}
+              {{#if website}}
+              <li>
+                <i class="fa fa-globe"></i>
+                <a href="http://{{website}}" target="_blank">{{website}}</a>
+              </li>
+              {{/if}}
+            </ul>
+          </div>
         </div>
         {{/each}}
         <div class="person hidden"></div>
