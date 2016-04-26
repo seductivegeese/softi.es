@@ -139,6 +139,13 @@
       "image": "people/wendy.jpg",
       "description": "lol is binary for 5",
       "github": "comloo"
+    },
+    {
+      "name": "Sadman Kazi",
+      "website": "sadmansk.com",
+      "image": "people/sadman.jpg",
+      "description": "javascript lover",
+      "github": "sadmansk"
     }
   ]
 }
