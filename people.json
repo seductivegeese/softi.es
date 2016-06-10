@@ -146,6 +146,13 @@
       "image": "people/sadman.jpg",
       "description": "javascript lover",
       "github": "sadmansk"
+    },
+    {
+      "name": "Alice Zhou",
+      "website": "aliceranzhou.com",
+      "image": "people/alicezhou.jpg",
+      "description": "Always learning",
+      "github": "aliceranzhou"
     }
   ]
 }
