@@ -1,3 +1,7 @@
+general:
+  branches:
+    only:
+     - develop
 deployment:
   source:
     branch: develop
