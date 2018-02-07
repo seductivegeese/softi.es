@@ -1,5 +1,4 @@
 (function() {
-
   var blinkGoose = function() {
     var goose = document.getElementById("goose");
     var open = ""+goose.innerHTML;
@@ -11,7 +10,7 @@
       goose.innerHTML = closed;
     }, 4800);
   };
-  
+
   //Many thanks to http://codepen.io/simsketch/pen/pJbYKx <3
   var bubble = function() {
     var icons = ['laptop', 'battery-3', 'chrome', 'y-combinator', 'beer', 'cloud', 'desktop','power-off', 'tv', 'file'];
@@ -32,7 +31,6 @@
     generateBubble();
     inter = setInterval(generateBubble, 1500);
   };
- 
 
   window.addEventListener("load", function() {
     bubble();

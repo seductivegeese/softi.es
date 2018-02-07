@@ -35,11 +35,12 @@
                   ; |___      \-``
                   \   --&lt;
                     `.`.&lt;
-                      `-'   
+                      `-'
       </pre>
     </section>
     <section>
-      <h2>The People</h2> 
+      {{#each group}}
+      <h2>{{label}}</h2>
       <div class="people">
         {{#each people}}
         <div class="person">
@@ -69,9 +70,11 @@
         <div class="person hidden"></div>
         <div class="person hidden"></div>
       </div>
-    </section> 
+      {{/each}}
+    </section>
+
     <section>
       <h2>Contribute</h2>
       <p>Like everything we do in SE, the source code for this site is <a href="https://github.com/icechen1/softi.es">on Github.</a> Don't see yourself? Want to change something? Fork the repo and submit a pull request with your changes!</p>
-	</body>
+  </body>
 </html>

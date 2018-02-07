@@ -5,14 +5,16 @@
       "website": "bopeng.io",
       "image": "people/bopeng.jpg",
       "description": "SE's yolo blogger; Po Beng's twin",
-      "github": "pobeng"
+      "github": "pobeng",
+      "atHeart": true
     },
     {
       "name": "Yu Chen Hou",
       "website": "yuchen.io",
       "image": "people/yuchenhou.jpg",
       "description": "Makes cool things and owns this domain",
-      "github": "icechen1"
+      "github": "icechen1",
+      "atHeart": true
     },
     {
       "name": "Dave Pagurek",
@@ -68,7 +70,8 @@
       "website": "jgzuke.me",
       "image": "people/jason.jpg",
       "description": "Just kinda here",
-      "github": "jgzuke"
+      "github": "jgzuke",
+      "atHeart": true
     },
     {
       "name": "Naren Srinivasan",
@@ -82,7 +85,8 @@
       "website": "deonhua.github.io",
       "image": "people/deon.jpg",
       "description": "Your local web dev.",
-      "github": "DeonHua"
+      "github": "DeonHua",
+      "atHeart": true
     },
     {
       "name": "Austin Du",
@@ -124,7 +128,8 @@
       "website": "coralam.ca",
       "image": "people/cora.jpg",
       "description": "A human. Being.",
-      "github": "coraellation"
+      "github": "coraellation",
+      "atHeart": true
     },
     {
       "name": "Tammy Liu",
@@ -152,7 +157,8 @@
       "website": "aliceranzhou.com",
       "image": "people/alicezhou.jpg",
       "description": "Always learning",
-      "github": "aliceranzhou"
+      "github": "aliceranzhou",
+      "atHeart": true
     }
   ]
 }

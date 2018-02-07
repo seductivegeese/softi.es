@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/icechen1/softi.es#readme",
   "dependencies": {
-    "handlebars": "^4.0.3"
+    "handlebars": "^4.0.3",
+    "lodash": "^4.17.5"
   }
 }
