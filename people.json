@@ -1,13 +1,6 @@
 {
   "people": [
     {
-      "name": "Bo Peng",
-      "website": "bopeng.io",
-      "image": "people/bopeng.jpg",
-      "description": "SE's yolo blogger; Po Beng's twin",
-      "github": "pobeng"
-    },
-    {
       "name": "Yu Chen Hou",
       "website": "yuchen.io",
       "image": "people/yuchenhou.jpg",
