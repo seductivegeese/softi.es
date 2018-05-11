@@ -153,6 +153,13 @@
       "image": "people/alicezhou.jpg",
       "description": "Always learning",
       "github": "aliceranzhou"
+    },
+    {
+      "name": "Bilal Akhtar",
+      "website": "itsbilal.com",
+      "image": "people/bilal.jpg",
+      "description": "Because Why Not",
+      "github": "itsbilal"
     }
   ]
 }
