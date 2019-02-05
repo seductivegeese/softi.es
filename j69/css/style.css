@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  background-color:#111;
+  color: #EEE;
+  padding: 100px;
+  font-family: 'Roboto', sans-serif;
+}
+
+pre {
+  background-color: #333;
+  color: #FFF;
+  padding: 20px;
+  border-radius: 4px;
+  min-height: 200px;
+}
+
+#editor {
+  position: relative;
+}
+
+#language {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+span.code {
+  font-family: monospace;
+}
