@@ -42,6 +42,7 @@
       <h2>The People</h2> 
       <div class="people">
         {{#each people}}
+        {{#unless cs}}
         <div class="person">
           <div class="icon" style="background-image:url('{{image}}')"></div>
           <div class="info">
@@ -63,6 +64,7 @@
             </ul>
           </div>
         </div>
+        {{/unless}}
         {{/each}}
         <div class="person hidden"></div>
         <div class="person hidden"></div>
@@ -71,7 +73,41 @@
       </div>
     </section> 
     <section>
+      <h2>SE at heart &#x2764;</h2> 
+      <div class="people">
+        {{#each people}}
+        {{#if cs}}
+        <div class="person">
+          <div class="icon" style="background-image:url('{{image}}')"></div>
+          <div class="info">
+            <h3>{{name}}</h3>
+            <h4>{{description}}</h4>
+            <ul>
+              {{#if github}}
+              <li>
+                <i class="fa fa-github"></i>
+                <a href="https://github.com/{{github}}" target="_blank">{{github}}</a>
+              </li>
+              {{/if}}
+              {{#if website}}
+              <li>
+                <i class="fa fa-globe"></i>
+                <a href="http://{{website}}" target="_blank">{{website}}</a>
+              </li>
+              {{/if}}
+            </ul>
+          </div>
+        </div>
+        {{/if}}
+        {{/each}}
+        <div class="person hidden"></div>
+        <div class="person hidden"></div>
+        <div class="person hidden"></div>
+        <div class="person hidden"></div>
+      </div>
+    </section>
+    <section>
       <h2>Contribute</h2>
-      <p>Like everything we do in SE, the source code for this site is <a href="https://github.com/icechen1/softi.es">on Github.</a> Don't see yourself? Want to change something? Fork the repo and submit a pull request with your changes!</p>
+      <p>Like everything we do in SE, the source code for this site is <a href="https://github.com/seductivegeese/softi.es">on Github.</a> Don't see yourself? Want to change something? Fork the repo and submit a pull request with your changes!</p>
 	</body>
 </html>
