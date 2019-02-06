@@ -148,6 +148,8 @@ a:hover {
   justify-content: space-between;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
+  max-width: 2000px;
+  margin: 0 auto;
 }
 
 .person {
