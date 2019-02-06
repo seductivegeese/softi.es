@@ -152,20 +152,12 @@ a:hover {
 
 .person {
   display:block;
-  width: 250px;
+  width: 275px;
   margin: 0 50px 50px 0;
 }
-@media all and (max-width: 1100px) {
-  .person {
-    width: 200px;
-  }
-}
-@media all and (max-width: 940px) {
+@media all and (max-width: 1200px) {
   .people {
     justify-content: center;
-  }
-  .person {
-    width:250px;
   }
 }
 .person.hidden {
@@ -173,7 +165,7 @@ a:hover {
   margin-top:0;
 }
 .person .icon {
-  height:200px;
+  height:250px;
   background-position:center;
   background-size:cover;
   border-radius:5px;
@@ -198,7 +190,7 @@ a:hover {
   font-size:16px;
 }
 .person ul li i {
-  width: 30px;
+  width: 20px;
   display:inline-block;
   text-align:center;
   color: #CF4A30;
