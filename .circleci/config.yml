@@ -17,6 +17,9 @@ jobs:
     working_directory: ~/repo
 
     steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "94:a9:59:9c:29:37:e4:99:a6:fd:08:76:b3:8a:ea:af"
       - checkout
       - save_cache:
           key: v1-repo-{{ .Environment.CIRCLE_SHA1 }}
@@ -46,6 +49,9 @@ jobs:
     steps:
       - restore_cache:
           key: v1-repo-{{ .Environment.CIRCLE_SHA1 }}
+      - add_ssh_keys:
+          fingerprints:
+            - "94:a9:59:9c:29:37:e4:99:a6:fd:08:76:b3:8a:ea:af"
       - run:
           name: Deployment script
           command: ./deploy.sh
