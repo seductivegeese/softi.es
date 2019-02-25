@@ -173,6 +173,13 @@
       "image": "people/gary.jpg",
       "description": "hi",
       "github": "dongyuzheng"
+    },
+    {
+      "name": "Justin Stribling",
+      "website": "justinstribling.com",
+      "image": "people/justinstribling.jpg",
+      "description": "Better late than never",
+      "github": "jastribl"
     }
   ]
 }
