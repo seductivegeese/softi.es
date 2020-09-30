@@ -1,4 +1,4 @@
-# [softi.es](http://softi.es)
+# [softi.es](http://softi.es) - An Amazing Website
 A website for UW Software Engineering class of 2019.
 
 ## Setup
