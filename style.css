@@ -14,6 +14,7 @@ pre {
 section {
   box-sizing: border-box;
   padding: 40px; 
+  margin: 0 40px 60px 0x;
 }
 section:nth-of-type(odd) {
   background-color:rgba(0,0,0,0.1);
@@ -196,6 +197,7 @@ a:hover {
   display:inline-block;
   text-align:center;
   color: #CF4A30;
+  text-shadow:20px 4px 3px 5px;
 }
 .person ul li a {
   text-decoration:none;
