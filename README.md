@@ -1,5 +1,5 @@
 # [softi.es](http://softi.es)
-Best website for UW Software Engineering class of 2019 where you can get all essentials which you want to develop your skills...:-)
+Best website for UW Software Engineering class of 2019, where you can get all essentials which you want to develop your skills...:-)
 
 ## Setup
 Install dependencies:
